@@ -1,0 +1,74 @@
+.about {
+  margin-top: 170px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: flex-start;
+  gap: 56px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-bottom: 90px;
+}
+
+.hr {
+  border: 1px solid #000000;
+  width: 10%;
+}
+
+.about-section-text {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  /* line-height: 66px; */
+}
+
+.about-section-text p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.about-section-text h1 {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.img-container {
+  margin-top: -250px;
+}
+
+.img-container img {
+  object-fit: contain;
+  max-width: 350px;
+}
+
+
+@media screen and (max-width: 1278px) {
+  .img-container {
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .about-section {
+    justify-content: center;
+  }
+
+  .hr {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1278px) {
+  .img-container img {
+    max-width: 500px;
+  }
+}

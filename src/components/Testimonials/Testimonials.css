@@ -1,0 +1,101 @@
+.reviews {
+  text-align: center;
+}
+
+.reviews h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  padding: 40px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.reviews-container {
+  background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 20px;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1 1 200px;
+}
+
+.reviews-item h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.reviews-item p {
+  width: 85%;
+}
+
+.reviewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviewer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reviewer-info h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.reviewer-info span {
+  font-weight: 300;
+  font-size: 14px;
+  color: #564E4E;
+}
+
+.item-container {
+  padding: 30px;
+  background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* flex-direction: column; */
+}
+
+.item {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color:#d6d1ce;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #C39E9E;
+}

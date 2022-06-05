@@ -1,0 +1,48 @@
+.works {
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.works h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  padding: 40px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.projects-item h4 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+}

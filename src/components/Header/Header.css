@@ -1,0 +1,43 @@
+.header {
+  background: url(/src/assets/bg.png);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  background-blend-mode: multiply;
+}
+
+.header-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  font-size: clamp(3vh, 3vw, 5rem);
+  line-height: 72px;
+  text-align: center;
+  /* margin: 0 0 .5em; */
+
+  color: #FFFFFF;
+  width: 72%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    background-position: center;
+  }
+}
